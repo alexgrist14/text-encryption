@@ -93,7 +93,7 @@ const CipherPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-4">
-      <h1 className="text-2xl font-bold">Шифратор текстов</h1>
+      <h1 className="text-2xl font-bold">Шифратор</h1>
   
       <Select onValueChange={(value) => setAlgorithm(value)} defaultValue="caesar">
         <SelectTrigger className="w-[240px]">
